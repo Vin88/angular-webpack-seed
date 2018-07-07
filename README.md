@@ -1,4 +1,4 @@
-# AngularJS ES6 Starter Kit
+# AngularJS 1.6 with webpack
 
 This repo contains `webpack`, `AngularJS`, `ES6` and `Bootstrap 3`starter kit.
 
