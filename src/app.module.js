@@ -5,13 +5,16 @@ import styles from './styles/styles.scss';
 import './services/core.module';
 // loading all module components
 import './app.components';
+import GLOBAL from './common/constants';
 
 const appModule = angular
 	.module('schoolApp', [
-		// shared module
-		'app.core',
 		// 3rd party modules
 		'ui.router',
+		'ngCookies',
+		'pascalprecht.translate',
+		// shared module
+		'app.core',
 		// application specific modules
 		'app.root',
 		'app.footer',

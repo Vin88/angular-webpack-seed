@@ -37,6 +37,12 @@
   },
   "dependencies": {
     "angular": "^1.6.5",
+    "angular-cookies": "^1.7.2",
+    "angular-translate": "^2.18.1",
+    "angular-translate-loader-partial": "^2.18.1",
+    "angular-translate-loader-url": "^2.18.1",
+    "angular-translate-storage-cookie": "^2.18.1",
+    "angular-translate-storage-local": "^2.18.1",
     "angular-ui-router": "^1.0.3",
     "bootstrap": "^3.3.7",
     "font-awesome": "4.7.0",

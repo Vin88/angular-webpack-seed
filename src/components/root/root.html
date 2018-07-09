@@ -52,19 +52,13 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
 					<div  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-					Lang 1
+					{{$ctrl.selectedLang}}
 					<i class="fa fa-globe" aria-hidden="true"></i>
 						<span class="caret"></span>
 					</div>
 					<ul class="dropdown-menu" role="menu">
-						<li>
-							<a>Lang 1</a>
-						</li>
-						<li>
-							<a>Lang 2</a>
-						</li>
-						<li>
-							<a>Lang 3</a>
+						<li ng-repeat="(key,value) in $ctrl.availableLang">
+							<a ng-click="$ctrl.changeLanguage(key)">{{value}}</a>
 						</li>
 					</ul>
 				</li>
